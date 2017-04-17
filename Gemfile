@@ -37,6 +37,8 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'minitest-rails-capybara'
+  gem 'brakeman', :require => false
   gem 'byebug', platform: :mri
 end
 
